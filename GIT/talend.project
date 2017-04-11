@@ -7,6 +7,18 @@
     <documentationStatus xmi:id="_qMU2gB5gEeeituGCRmjbDg" label="unchecked" code="UCK"/>
     <documentationStatus xmi:id="_qMU2gR5gEeeituGCRmjbDg" label="checked" code="CHK"/>
     <documentationStatus xmi:id="_qMU2gh5gEeeituGCRmjbDg" label="validated" code="VAL"/>
+    <ItemsRelations xmi:id="_sdMQcB5hEeeZW55qeTZTSg">
+      <baseItem xmi:id="_sdMQcR5hEeeZW55qeTZTSg" id="_Ah6YcB5hEeeituGCRmjbDg" version="0.1" type="job"/>
+      <relatedItems xmi:id="_sdMQch5hEeeZW55qeTZTSg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_sdMQcx5hEeeZW55qeTZTSg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_sdMQdB5hEeeZW55qeTZTSg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_sdMQdR5hEeeZW55qeTZTSg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_sdMQdh5hEeeZW55qeTZTSg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_sdMQdx5hEeeZW55qeTZTSg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_sdMQeB5hEeeZW55qeTZTSg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_sdMQeR5hEeeZW55qeTZTSg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_sdMQeh5hEeeZW55qeTZTSg" id="Mathematical" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_qLIjsB5gEeeituGCRmjbDg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_qLIjsR5gEeeituGCRmjbDg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_qLIjsh5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
@@ -146,7 +158,6 @@
     <migrationTask xmi:id="_rAuvZx5gEeeituGCRmjbDg" id="org.talend.designer.dbmap.migration.ELTMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_rAuvaB5gEeeituGCRmjbDg" id="org.talend.designer.mapper.migration.TMapSaveToEmfMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_rAuvaR5gEeeituGCRmjbDg" id="org.talend.designer.xmlmap.migration.TXMLMapChangeAllInOneValueMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
-    <migrationTask xmi:id="_rAuvah5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_rAuvax5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.ResetValuetInfiniteLoop" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_rAuvbB5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.UpgrateDatabaseTypeForSybaseConnection" breaks="5.1.1" version="5.1.2" status="ok"/>
     <migrationTask xmi:id="_rAuvbR5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.RenamePasswordParaForLdapMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -352,7 +363,17 @@
     <migrationTask xmi:id="_rAuwNR5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.AddDefaultVersionValueForElasticsearchLookupInput" breaks="6.2.0" version="6.2.1" status="noimpact"/>
     <migrationTask xmi:id="_rAuwNh5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.ChangeMSSQLDBVersionMigrationTask" breaks="6.2.0" version="6.3.0" status="noimpact"/>
     <migrationTask xmi:id="_rAuwNx5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.ChangeTypeMappingForRedshift" breaks="6.3.0" version="6.3.1" status="noimpact"/>
-    <migrationTask xmi:id="_rAuwOB5gEeeituGCRmjbDg" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_sdImEB5hEeeZW55qeTZTSg" id="org.talend.repository.model.migration.FixProjectResourceLink" breaks="5.1.1" version="5.1.2" status="noimpact"/>
+    <migrationTask xmi:id="_sdImER5hEeeZW55qeTZTSg" id="org.talend.datacleansing.core.migration.UpdateTMultiPatternCheckTask" breaks="5.6.0" version="5.6.0" status="ok"/>
+    <migrationTask xmi:id="_sdImEh5hEeeZW55qeTZTSg" id="org.talend.datacleansing.core.migration.UpdateTmatchGroupQualityTask" breaks="5.6.0" version="5.6.0" status="ok"/>
+    <migrationTask xmi:id="_sdImEx5hEeeZW55qeTZTSg" id="org.talend.repository.storm.repository.migration.UnifyPasswordEncryption4ParametersInStormJobMigrationTask" breaks="5.6.0" version="5.6.0" status="noimpact"/>
+    <migrationTask xmi:id="_sdImFB5hEeeZW55qeTZTSg" id="org.talend.repository.storm.repository.migration.CheckAndAddFrameworkForStormJobMigrationTask" breaks="6.0.0" version="6.0.0" status="noimpact"/>
+    <migrationTask xmi:id="_sdImFR5hEeeZW55qeTZTSg" id="org.talend.datacleansing.core.migration.UpdateTmatchGroupMRParamTask" breaks="6.2.2" version="6.2.2" status="noimpact"/>
+    <migrationTask xmi:id="_sdImFh5hEeeZW55qeTZTSg" id="org.talend.datacleansing.core.migration.UpdatetMelissaDataAddressTask" breaks="6.3.0" version="6.3.0" status="ok"/>
+    <migrationTask xmi:id="_sdImFx5hEeeZW55qeTZTSg" id="org.talend.datacleansing.core.migration.UpdatetNaivebayseModelSparkVersionTask" breaks="6.3.0" version="6.3.0" status="noimpact"/>
+    <migrationTask xmi:id="_sdImGB5hEeeZW55qeTZTSg" id="org.talend.datacleansing.core.migration.UpdatetPredictSparkVersionTask" breaks="6.3.0" version="6.3.0" status="noimpact"/>
+    <migrationTask xmi:id="_sdImGR5hEeeZW55qeTZTSg" id="org.talend.datacleansing.core.migration.UpdateTMatchGroupOutPutSchemaTask" breaks="6.3.1" version="6.3.1" status="ok"/>
+    <migrationTask xmi:id="_sdImGh5hEeeZW55qeTZTSg" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_o39Ekh5gEeeituGCRmjbDg" login="admin@company.com" firstName="admin" lastName="admin" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
